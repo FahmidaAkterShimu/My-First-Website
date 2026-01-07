@@ -1,0 +1,15 @@
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header{
+    background-image: url(../images/banner/banner1.png);
+background-position:inherit;
+}
+
+#banner{
+    margin: 216px 230px 166px 845px;
+}
+
