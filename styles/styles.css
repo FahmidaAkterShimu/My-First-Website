@@ -1,48 +1,47 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.work-sans{
+.work-sans {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
-header{
+header {
   min-height: 808px;
   display: flex;
-  /* align-items: center; */
   background-image: url(../images/banner/banner1.png);
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 
-#banner{
+#banner {
   width: 33%;
   max-width: 525px;
   text-align: right;
   margin: 13.5% 14% 10% 53%;
 }
 
-.banner-content h1{
+.banner-content h1 {
   font-size: 65px;
   font-weight: bold;
   color: #151414;
   margin-bottom: 24px;
 }
 
-.banner-content p{
- font-size: 16px;
- line-height: 26px;
- color: #444343;
- margin-bottom: 32px;
+.banner-content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 32px;
 }
 
-.banner-content button{
+.banner-content button {
   font-size: 20px;
   font-weight: 600;
   color: white;
@@ -52,59 +51,62 @@ header{
   padding: 21px 25px 20px 26px;
 }
 
-#failures{
+#failures {
+  padding: 132px 322px 0 206px;
+}
+
+.f-container {
+  width: 67%;
+  max-width: 1072;
   display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   gap: 87px;
-  padding: 140px 322px 0 206px;
 }
 
-.f-img{
+.f-img {
   background-color: #f15d229c;
-  border-radius:50%;
-  display: flex;
-  align-items: center;
-  justify-content:center;
+  border-radius: 50%;
 }
 
-.f-content h2{
+.f-content h2 {
   font-size: 40px;
   font-weight: bold;
   color: #151414;
   margin-bottom: 24px;
 }
 
-.f-content p{
+.f-content p {
   font-size: 16px;
   line-height: 26px;
   color: #444343;
   margin-bottom: 16px;
 }
 
-.f-content .f-list{
+.f-content .f-list {
   font-size: 16px;
   line-height: 26px;
   list-style: none;
   color: #444343;
 }
 
-.f-list li::before{
+.f-list li::before {
   content: "✔";
   color: #16D887;
   font-weight: bold;
 }
 
-#plans{
-  margin: 0 auto;
+#plans {
   justify-content: center;
   padding: 129px 229px 0 230px;
 }
 
+.my-plans {
+  margin: 0 auto;
+}
 
-
-#plans h2{
+.my-plans h2 {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
@@ -112,10 +114,107 @@ header{
   margin-bottom: 55px;
 }
 
-.skills-container{
+.skills-container {
   display: flex;
-  margin: 0 auto;
   justify-content: center;
   gap: 129px;
 }
 
+#call {
+  margin: 0 auto;
+  justify-content: center;
+  padding: 130px 230px;
+}
+
+#call .call-container {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  background-image: url(../images/watch.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  padding: 59px 617px 59px 64px;
+}
+
+.call-content h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.call-container button {
+  font-size: 20px;
+  font-weight: 600;
+  color: #F15B22;
+  padding: 20px 36px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+footer {
+  background-color: #151414;
+  padding: 130px 217px 130px 242px;
+  justify-content: center;
+}
+
+#footer {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 331px;
+}
+
+.f-title h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #F8F8F8;
+}
+
+.f-title p {
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.social p {
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+
+.icons {
+  margin-right: 18px;
+}
+
+.subscribe h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 31px;
+}
+
+.subscribe input {
+  font-size: 18px;
+  color: #F3F3F3;
+  background-color: #151414;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 21px 158px 22px 21px;
+}
+
+.subscribe button {
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  color: #F15B22;
+  background-color: #FFFFFF;
+  padding: 20px 30px;
+}
