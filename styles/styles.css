@@ -13,7 +13,7 @@
 header {
   min-height: 808px;
   display: flex;
-  background-image: url(../images/banner/banner1.png);
+  background-image: url("../images/banner/banner1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -56,8 +56,8 @@ header {
 }
 
 .f-container {
-  width: 67%;
-  max-width: 1072;
+  /* width: 67%; */
+  /* max-width: 1072; */
   display: flex;
   margin: 0 auto;
   justify-content: center;
@@ -66,7 +66,8 @@ header {
 }
 
 .f-img {
-  background-color: #f15d229c;
+  /* background-color: #f15d229c; */
+  background-color: #fcded3;
   border-radius: 50%;
 }
 
@@ -130,8 +131,8 @@ header {
   display: flex;
   justify-content: center;
   height: 300px;
-  background-image: url(../images/watch.png);
-  background-position: center;
+  background-image: url("../images/gradient2.png"), url("../images/watch.png");
+  background-position: center, center;
   background-repeat: no-repeat;
   border-radius: 8px;
   padding: 59px 617px 59px 64px;
@@ -162,7 +163,7 @@ footer {
 }
 
 #footer {
-  width: 71%;
+  /* width: 71%; */
   max-width: 1140px;
   margin: 0 auto;
   display: flex;
